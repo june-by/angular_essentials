@@ -1,0 +1,11 @@
+<main>
+  <app-learning-resources />
+
+  <hr />
+
+  <app-auth />
+
+  <p *appAuth="'admin'" class="protected-content">
+    Only admins should see this!
+  </p>
+</main>
